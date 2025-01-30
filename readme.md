@@ -1,5 +1,13 @@
 # Twig example
 
+## Installation
+
+To install the project, please run command:
+
+```bash
+composer install
+```
+
 ## Reproduce the issue
 
 To reproduce the issue, please run command:
