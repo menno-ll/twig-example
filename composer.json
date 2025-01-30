@@ -1,0 +1,29 @@
+{
+    "name": "ll-menno/twig-example",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "LLMenno\\TwigExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "menno-ll",
+            "email": "menno@level-level.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.19",
+        "wp-cli/wp-cli-bundle": "^2.11",
+        "twig/string-extra": "^3.19",
+        "twig/intl-extra": "^3.19",
+        "twig/html-extra": "^3.19",
+        "twig/markdown-extra": "^3.19"
+    },
+    "scripts": {
+        "compile-templates": [
+            "wp clarkson-twig-translations --require=wp-cli-command.php --template-dir=./templates --output-dir=./dist/rendered-templates"
+        ]
+    }
+}
